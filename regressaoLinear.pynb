@@ -33,3 +33,5 @@ plt.title('Regressão Linear Simples')
 plt.xlabel('Exp (em meses)')
 plt.ylabel('Salary (em milhares)')
 plt.show()
+
+print(plt.scatter(data['exp(in months)'],data['salary(in thousands)']))
